@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16752309-cefb-45b4-a776-1116d47e853f/dg7sruy-0588ba8e-a306-442e-8007-715c6716ce63.jpg/v1/fill/w_1192,h_670,q_70,strp/_ai__4k__jungle__rain__night__fog_by_yashamon_dg7sruy-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzE2NzUyMzA5LWNlZmItNDViNC1hNzc2LTExMTZkNDdlODUzZlwvZGc3c3J1eS0wNTg4YmE4ZS1hMzA2LTQ0MmUtODAwNy03MTVjNjcxNmNlNjMuanBnIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.V6EGWRxujqWJh_Pq7iooKxjkZvLC6TKTB4Uo8XQfp4g);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.login-container {
+
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    opacity: 99%;
+    max-height: 600px;
+    max-width: 700px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.37, );
+}
+
+
+
+.email,
+.pass {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background: none;
+    color: white;
+    transition: all 0.37s;
+}
+
+.email:focus,
+.pass:focus {
+    box-shadow: 0px 0px 5px
+}
+input::placeholder {
+    color: rgb(201, 200, 200);
+}
+
+.header {
+    margin-top: 20%;
+    color: rgb(233, 233, 233);
+}
+
+.email {
+    margin-top: 20%;
+}
+
+.submit {
+    padding: .5em .7em;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 1em;
+    cursor: pointer;
+}
